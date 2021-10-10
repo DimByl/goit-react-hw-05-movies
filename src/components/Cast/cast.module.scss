@@ -1,0 +1,12 @@
+.castsList {
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.thumb {
+  text-align: center;
+  color: red;
+  background-color: #7eca9c;
+  height: 120px;
+}
